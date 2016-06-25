@@ -1,0 +1,28 @@
+#
+# Requirements file is used to keep track of ansible role origins and versions
+# source code of roles is thus checked into the apphome-ansible repo, but we have an easy way to
+# update role dependencies.
+#
+# This means you should *NOT* update the code of third-party roles inside this repo,
+# instead make a pull request to them or download your fork of that version.
+#
+#
+#
+# REQUIRES ANSIBLE version 1.8+
+#
+# To update external roles run: ./role_update.sh
+#       Please note if the processes fails for some reason to comit or push your code
+#        until you resolved the issue. if not this might break the build
+#
+# for syntax see docs at http://docs.ansible.com/galaxy.html#advanced-control-over-role-requirements-files
+
+
+############################################
+### roles downloaded from ansible galaxy ###
+############################################
+
+  # TODO: Make sure to ALWAYS PIN a version when avaible.
+  # Example:
+  # - src: git+https://github.com/AutomationWithAnsible/ansible-install.git
+  #   version: "v0.1.0"
+  #   name: ansible-install
