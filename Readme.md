@@ -1,3 +1,5 @@
-# CloudFirst SandBox
+# Ansible Master Template
 ### Introduction
-This repo is created to automate the Sandbox environment
+This template you can use to create your Ansible Master repo.
+
+p.s. you need to create 
