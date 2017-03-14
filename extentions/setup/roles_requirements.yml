@@ -23,6 +23,6 @@
 
   # TODO: Make sure to ALWAYS PIN a version when avaible.
   # Example:
-  # - src: git+https://github.com/AutomationWithAnsible/ansible-install.git
-  #   version: "v0.1.0"
-  #   name: ansible-install
+   - src: git+https://github.com/AutomationWithAnsible/ansible-install.git
+     version: "v0.1.0"
+     name: ansible-install

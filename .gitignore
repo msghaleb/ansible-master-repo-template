@@ -1,0 +1,23 @@
+sample remove the letter a leading each line
+
+a*.iml
+a.idea
+a*.pyc
+atmp/*
+alocal.ini
+a.vpass
+aroles/experimental
+aroles/test
+a*.log
+aplays-test
+aplays-experimental/
+afail_log_callback.json
+atemp_fail/
+aextensions/test/
+aaeco.ini
+aaeco.conf
+atests/*/.kitchen/
+atests/*/Gemfile.lock
+a.vagrant
+a.DS_Store
+a.galaxy_install_info
